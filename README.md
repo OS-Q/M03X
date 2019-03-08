@@ -1,44 +1,27 @@
-﻿# [compile](https://github.com/mcuyun/compile) 
+﻿# [compiler](https://github.com/sochub/compiler) 
 
-[![sites](mcuyun/mcuyun.png)](http://www.mcuyun.com)
+[![sites](soc/soc.png)](http://www.qitas.cn) 
 
-### [toolchain](https://github.com/mcuyun/toolchain) 
+#### 归属：[toolchain](https://github.com/sochub/toolchain)
 
-## [简介](https://github.com/mcuyun/compile/wiki) 
+#### [关于嵌入式开发平台](https://github.com/sochub)可访问 http://stop.stops.top
 
-开发编译工具
+## [描述](https://github.com/sochub/compiler/wiki) 
 
-## [组成](mcuyun/) 
+linux系统环境下编译工具
 
-#### [gcc](gcc/)
+## [组成](soc/) 
 
-gcc编译工具
+#### -> [编译工具](https://github.com/sochub/compile)
 
-#### [crosstool](crosstool/)
+#### [检视工具](https://github.com/sochub/lint)
 
-crosstool工具
+#### [调试工具](https://github.com/sochub/debug)
 
-#### [busybox](busybox/)
-
-busybox工具
-
-#### [gcc-xtensa](https://github.com/jcmvbkbc/gcc-xtensa)
-
-gcc-xtensa工具
-
-## [toolchain](https://github.com/mcuyun/toolchain) 
-
-#### [编译工具](https://github.com/mcuyun/compile)
-
-#### [检视工具](https://github.com/mcuyun/lint)
-
-#### [调试工具](https://github.com/mcuyun/debug)
-
-#### [下载工具](https://github.com/mcuyun/flash)
-
+#### [下载工具](https://github.com/sochub/flash)
 
 ---
 
-###  [嵌入式开发云](http://www.mcuyun.com)
+###  [嵌入式开发平台](http://www.qitas.cn)   
+
 ###  qitas@qitas.cn
-###  2018-12-13
