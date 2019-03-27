@@ -26,7 +26,7 @@
 
 ---
 
-### [关联工具](SoC/) 
+### [关联工具](https://github.com/sochub/toolchain)
 
 #### -> [编译工具](https://github.com/sochub/compiler)
 
