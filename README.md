@@ -1,6 +1,6 @@
 ﻿# [compiler](https://github.com/sochub/compiler) 
 
-[![sites](soc/soc.png)](http://www.qitas.cn) 
+[![sites](SoC/SoC.png)](http://www.qitas.cn) 
 
 ####  qitas@qitas.cn
 
