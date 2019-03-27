@@ -10,6 +10,8 @@
 
 用于编译各个平台源码的工具链
 
+---
+
 ## [组成](https://github.com/sochub/compiler)
 
 #### [arm-none-eabi](https://github.com/sochub/arm-none-eabi)
@@ -22,7 +24,9 @@
 
 #### [mips-xtensa](https://github.com/sochub/xtensa)
 
-### [关联工具](soc/) 
+---
+
+### [关联工具](SoC/) 
 
 #### -> [编译工具](https://github.com/sochub/compiler)
 
@@ -31,5 +35,7 @@
 #### [调试工具](https://github.com/sochub/debug)
 
 #### [下载工具](https://github.com/sochub/flash)
+
+---
 
 ##  [SoC开发平台](http://www.qitas.cn)   
