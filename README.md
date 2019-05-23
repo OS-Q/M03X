@@ -2,40 +2,31 @@
 
 [![sites](SoC/SoC.png)](http://www.qitas.cn) 
 
-####  qitas@qitas.cn
-
-#### 归属：[toolchain](https://github.com/sochub/toolchain)
+#### 父级：[toolchain](https://github.com/sochub/toolchain)
 
 ## [描述](https://github.com/sochub/compiler/wiki) 
 
-用于编译各个平台源码的工具链
+用于编译工程源码，主要是收录开源工具和Linux系统下开发资源
 
----
+window下keil工程转换脚本：
 
-## [组成](https://github.com/sochub/compiler)
+* [keil2make](keil2make/)
 
-#### [arm-none-eabi](https://github.com/sochub/arm-none-eabi)
+### [收录资源](https://github.com/sochub/compiler)
 
-#### [arm-eabi](https://github.com/sochub/arm-eabi)
+* [arm-none-eabi](https://github.com/sochub/arm-none-eabi)
+* [arm-eabi](https://github.com/sochub/arm-eabi)
+* [arm-linux](https://github.com/sochub/arm-linux-eabi)
+* [aarch-linux](https://github.com/sochub/aarch-linux)
+* [mips-xtensa](https://github.com/sochub/xtensa)
+* [8051-SDCC](https://github.com/sochub/SDCC)
 
-#### [arm-linux](https://github.com/sochub/arm-linux-eabi)
+### [相关工具](https://github.com/sochub/toolchain)
 
-#### [aarch-linux](https://github.com/sochub/aarch-linux)
+* [源码编译](https://github.com/sochub/compiler)
+* [代码规范](https://github.com/sochub/lint)
+* [调试下载](https://github.com/sochub/debug)
+    * [下载烧录](https://github.com/sochub/flash)
 
-#### [mips-xtensa](https://github.com/sochub/xtensa)
 
----
-
-### [关联工具](https://github.com/sochub/toolchain)
-
-#### -> [编译工具](https://github.com/sochub/compiler)
-
-#### [检视工具](https://github.com/sochub/lint)
-
-#### [调试工具](https://github.com/sochub/debug)
-
-#### [下载工具](https://github.com/sochub/flash)
-
----
-
-##  [SoC开发平台](http://www.qitas.cn)   
+##  [SoC资源平台](http://www.qitas.cn)  
