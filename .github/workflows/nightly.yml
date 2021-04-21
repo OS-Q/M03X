@@ -1,12 +1,12 @@
 name: nightly
 
-# on:
-#   schedule:
-#     - cron: '0 9 * * *'
 on:
-  push:
-    branches:
-      - master
+  schedule:
+    - cron: '0 4 * * *'
+# on:
+#   push:
+#     branches:
+#       - master
 
 env:
   UPLOAD_BUILD: true
@@ -99,7 +99,8 @@ jobs:
         working-directory: testing
         if: success()
         run: |
-          pio run -d .
+          pio run -e uno -d .
+          pio run -e nodemcu -d .
           echo "::set-output name=status::success"
 
   # test:
