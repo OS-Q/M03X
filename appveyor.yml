@@ -1,0 +1,20 @@
+build: off
+environment:
+
+  matrix:
+    - PLATFORMIO_PROJECT_DIR: "examples/arduino-blink"
+    - PLATFORMIO_PROJECT_DIR: "examples/arduino-internal-libs"
+    - PLATFORMIO_PROJECT_DIR: "examples/mbed-blink"
+    - PLATFORMIO_PROJECT_DIR: "examples/zephyr-blink"
+
+platform:
+  - x64
+install:
+  - cmd: git submodule update --init --recursive
+  - cmd: SET PATH=C:\Python37\Scripts;%PATH%
+  - cmd: pip3 install platformio
+  - cmd: pio update
+  - cmd: pio platform install file://.
+
+test_script:
+  - cmd: pio run -d %PLATFORMIO_PROJECT_DIR%

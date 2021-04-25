@@ -1,0 +1,216 @@
+{
+  "name": "P42",
+  "title": "Nordic nRF51",
+  "description": "The Nordic nRF51 Series is a family of highly flexible, multi-protocol, system-on-chip (SoC) devices for ultra-low power wireless applications. nRF51 Series devices support a range of protocol stacks including Bluetooth Smart (previously called Bluetooth low energy), ANT and proprietary 2.4GHz protocols such as Gazell.",
+  "homepage": "https://www.nordicsemi.com/eng/Products/nRF51-Series-SoC",
+  "license": "Apache-2.0",
+  "keywords": [
+    "dev-platform",
+    "ARM",
+    "Cortex-M",
+    "Nordic Semiconductor",
+    "nRF51"
+  ],
+  "engines": {
+    "platformio": "^5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/platformio/platform-nordicnrf51.git"
+  },
+  "version": "7.0.0",
+  "frameworks": {
+    "arduino": {
+      "package": "framework-arduinonordicnrf5",
+      "script": "builder/frameworks/arduino/nrf5.py"
+    },
+    "mbed": {
+      "package": "framework-mbed",
+      "script": "builder/frameworks/mbed.py"
+    },
+    "zephyr": {
+      "package": "framework-zephyr",
+      "script": "builder/frameworks/zephyr.py"
+    }
+  },
+  "packages": {
+    "toolchain-gccarmnoneeabi": {
+      "type": "toolchain",
+      "owner": "platformio",
+      "version": ">=1.60301.0,<1.80000.0",
+      "optionalVersions": [
+        "~1.80201.0"
+      ]
+    },
+    "framework-arduinonordicnrf5": {
+      "type": "framework",
+      "optional": true,
+      "owner": "platformio",
+      "version": "~1.700.0"
+    },
+    "framework-mbed": {
+      "type": "framework",
+      "optional": true,
+      "owner": "platformio",
+      "version": "~5.51105.190304"
+    },
+    "framework-zephyr": {
+      "type": "framework",
+      "optional": true,
+      "owner": "platformio",
+      "version": "~2.20500.0"
+    },
+    "framework-zephyr-cmsis": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "0.0.0-alpha+sha.c3bd2094f9"
+    },
+    "framework-zephyr-canopennode": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "0.0.0-alpha+sha.468d350028"
+    },
+    "framework-zephyr-civetweb": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "0.0.0-alpha+sha.e6903b80c0"
+    },
+    "framework-zephyr-fatfs": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "0.0.0-alpha+sha.1d1fcc725a"
+    },
+    "framework-zephyr-hal-nordic": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "0.0.0-alpha+sha.f0d54d8449"
+    },
+    "framework-zephyr-hal-st": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "0.0.0-alpha+sha.b52fdbf4b6"
+    },
+    "framework-zephyr-libmetal": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "0.0.0-alpha+sha.9d4ee2c3cf"
+    },
+    "framework-zephyr-lvgl": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "0.0.0-alpha+sha.31acbaa36e"
+    },
+    "framework-zephyr-mbedtls": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "0.0.0-alpha+sha.24d84ecff1"
+    },
+    "framework-zephyr-mcuboot": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "0.0.0-alpha+sha.3fc59410b6"
+    },
+    "framework-zephyr-mcumgr": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "0.0.0-alpha+sha.43845e883f"
+    },
+    "framework-zephyr-open-amp": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "0.0.0-alpha+sha.de1b85a130"
+    },
+    "framework-zephyr-loramac-node": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "0.0.0-alpha+sha.3f545d76a2"
+    },
+    "framework-zephyr-openthread": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "0.0.0-alpha+sha.1d668284a0"
+    },
+    "framework-zephyr-segger": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "0.0.0-alpha+sha.38c79a447e"
+    },
+    "framework-zephyr-sof": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "0.0.0-alpha+sha.b5b772dd61"
+    },
+    "framework-zephyr-tinycbor": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "0.0.0-alpha+sha.40daca97b4"
+    },
+    "framework-zephyr-tinycrypt": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "0.0.0-alpha+sha.3e9a49d267"
+    },
+    "framework-zephyr-littlefs": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "0.0.0-alpha+sha.9e4498d1c7"
+    },
+    "framework-zephyr-mipi-sys-t": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "0.0.0-alpha+sha.75e671550a"
+    },
+    "framework-zephyr-tfm-mcuboot": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "1.7.0-rc1"
+    },
+    "framework-zephyr-trusted-firmware-m": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "0.0.0-alpha+sha.96340fb6c0"
+    },
+    "tool-sreccat": {
+      "owner": "platformio",
+      "version": "~1.164.0"
+    },
+    "tool-openocd": {
+      "type": "uploader",
+      "optional": true,
+      "owner": "platformio",
+      "version": "~2.1000.0"
+    },
+    "tool-nrfjprog": {
+      "type": "uploader",
+      "optional": true,
+      "owner": "platformio",
+      "version": "~1.90702.0"
+    },
+    "tool-jlink": {
+      "type": "uploader",
+      "optional": true,
+      "owner": "platformio",
+      "version": "^1.63208.0"
+    },
+    "tool-cmake": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "~3.16.0"
+    },
+    "tool-dtc": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "~1.4.7"
+    },
+    "tool-ninja": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "^1.7.0"
+    },
+    "tool-gperf": {
+      "optional": true,
+      "owner": "platformio",
+      "version": "^3.0.0"
+    }
+  }
+}
