@@ -21,8 +21,7 @@ jobs:
             pio run -d examples/arduino-ble-led
             pio run -d examples/arduino-blink
             pio run -d examples/arduino-internal-libs
-            pio run -d examples/mbed-blink
-            pio run -d examples/zephyr-blink
+
 
 workflows:
     version: 2

@@ -57,8 +57,10 @@ jobs:
           - "arduino-ble-led"
           - "arduino-blink"
           - "arduino-internal-libs"
-          - "mbed-blink"
-          - "zephyr-blink"
+          - "mbed-events"
+          # - "zephyr-ble-eddystone"
+          # - "zephyr-drivers-entropy"
+          # - "zephyr-blink"
 
         os: [ubuntu-latest, windows-latest, macos-latest]
 

@@ -22,4 +22,4 @@ steps:
   - pio platform install file://.
   - pio run -d examples/zephyr-blink
   - pio run -d examples/arduino-blink
-  - pio run -d examples/mbed-blink
+  - pio run -d examples/arduino-ble-led
